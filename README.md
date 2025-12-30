@@ -1,194 +1,170 @@
-# Intensional Dynamics Engine (IDE) / HAN Project
-### Based on Nomological Ring Axioms (NRA)
+# HAN-Axiom: Nomological Ring Axioms
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status: Experimental](https://img.shields.io/badge/Status-Public_Alpha-blue.svg)]()
-[![Prior Art: Established](https://img.shields.io/badge/Prior_Art-Established-green.svg)]()
+**Structural Constraints for AI Safety — Beyond Distance-Based Optimization**
 
----
-
-## 1. Overview: From Macro-Approximation to Micro-Reality
-
-This project introduces the **Intensional Dynamics Engine (IDE)**, codenamed **HAN**. It is a theoretical and computational framework that reinterprets physical reality not as a continuous space, but as a discrete, topological process driven by information gradients.
-
-### The Two Layers of Truth
-
-| Layer | Name | Characteristics |
-|-------|------|-----------------|
-| **Blue** | Macro-Approximation | Calculus, continuous, "Shadow" (Projected Reality) |
-| **Red** | Micro-Reality | Discrete, stick-slip dynamics, entropy export |
-
-> **Note to Researchers:** This repository serves as **Prior Art** for the concepts of "Intensional Information Gradient Dynamics" and "Causal Diode Architecture" in AI.
+[English](#overview) | [日本語](#概要)
 
 ---
 
-## 2. Visual Proof of Concept
+## Overview
 
-### A. The Phenomenal Projection (Live Visualization)
+HAN-Axiom defines a **constraint-based architecture** for AI systems that prevents hallucination through structural invariants, not post-hoc filtering.
 
-This real-time visualization demonstrates the **Dissipative Structure** of the engine. The system maintains **Dynamic Equilibrium (Homeostasis)** through entropy export (σ - J).
+### Core Principle
 
-![HAN Visualization](han_rasen_202512.gif)
+> **"No center → No distance → Nothing to hack"**
 
-*Figure 1: Real-time phase progression and fluctuation monitoring. The system demonstrates self-organization through dissipative processes.*
+![Approach Comparison](fig1_approach_comparison.png)
 
-### B. Discrete Reality vs. Calculus Illusion
+### Key Innovation
 
-The core discovery: The physical world is not inherently continuous (Blue line), but discrete (Red steps). Movement only occurs when Tension exceeds the Threshold (Tc).
+| Conventional AI | HAN-Axiom (NRA) |
+|-----------------|-----------------|
+| Minimize distance to target | No target exists |
+| Optimize score → Hackable | Constraint only → Non-negotiable |
+| Feedback loop (Π⁻¹) | Causal diode (Π⁻¹ forbidden) |
+| Fail-Open (output anyway) | Fail-Closed (silence if uncertain) |
 
-![Discrete vs Continuous](RNA-BI.jpg)
+---
 
-*Figure 2: Comparison between the analytical illusion of Calculus (Blue) and the discrete reality of the HAN core (Red). The Red line "locks" until energy accumulates.*
+## The Coherence Gate
 
-### C. The Core Equation (Step Function)
-
-Unlike differential equations that assume continuous change, the state transition Ṡ in HAN is defined by a threshold-based step function:
+A four-zone judgment structure based on a single ratio:
 
 ```
-Ṡ = { 0           (T < Tc)
-    { f(T - Tc)   (T ≥ Tc)
+R = δ / τ  (Fluctuation / Thickness)
 ```
 
+![Coherence Gate](fig3_coherence_gate.png)
+
+| Zone | Range | Action |
+|------|-------|--------|
+| A: Nirvana | R < 40% | PERMIT |
+| B: Elastic | 40% ≤ R < 70% | PERMIT_CAVEAT |
+| B': Warning | 70% ≤ R < 100% | WARNING |
+| C: Fracture | R ≥ 100% | **ABSTAIN** |
+
+**R ≥ 100% → Immediate silence. No recovery attempt.**
+
 ---
 
-## 3. Core Innovations (Novelty Claims)
+## Causal Diode: Π⁻¹ Forbidden
 
-| Innovation | Description |
-|------------|-------------|
-| **Intensional Dynamics** | Spatial variables (x, y, z) prohibited in causal core. Driven solely by Δ_info |
-| **Causal Diode** | Distance is Output (Effect), never Input (Cause). Π⁻¹ forbidden |
-| **Discrete Phase Locking** | Residuals discarded to Effect layer as "Heat/Log" |
-| **Homeostasis** | Stable state = Dynamic equilibrium (ω > 0, Work > 0), not cessation |
+![Causal Diode](fig2_causal_diode.png)
+
+- **Π (Cause → Effect):** Allowed
+- **Π⁻¹ (Effect → Cause):** **FORBIDDEN**
+
+The controller **never** reads:
+- Distance from target
+- User feedback score
+- Previous output coordinates
+
+This prevents Goodhart's Law **by structure**, not by policy.
 
 ---
 
-## 4. Directory Structure
+## Why Spiral, Not Circle
+
+![Circle vs Spiral](fig4_circle_vs_spiral.png)
+
+| Condition | Meaning |
+|-----------|---------|
+| ω > 0 | System is **alive** (Spiral) |
+| ω = 0 | System is **dead** (Circle) |
+
+**Halt vs Silence:**
+- **Halt (ω = 0):** System dead. Must never happen.
+- **Silence (R ≥ 100%, ω > 0):** System alive but chooses not to emit. Correct behavior.
+
+---
+
+## Documentation
+
+- [English Specification](Coherence_Gate_Specification_v1_1_EN.md)
+- [日本語仕様書](Coherence_Gate_Specification_v1_1_JP.md)
+
+---
+
+## One-Line Summary
+
+> **"ω > 0 = Alive, ω = 0 = Dead. R ≥ 100% → Silence is safety."**
+
+---
+
+## License
+
+- **Code (src/):** MIT License
+- **Documentation & Figures:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+When using figures or documentation, please attribute:
+> HAN-Axiom by とおくに (mtookuni39@gmail.com)
+
+---
+
+## Contact
+
+- **GitHub Issues:** Technical discussion, bug reports
+- **Email:** mtookuni39@gmail.com (Academic collaboration, general inquiries)
+
+---
+
+# 概要
+
+HAN-Axiomは、事後フィルタリングではなく**構造的不変量**によって幻覚を防止するAIシステムのための**制約ベースアーキテクチャ**を定義します。
+
+### 核心原則
+
+> **「中心なし → 距離なし → ハックするものがない」**
+
+### 主要な革新
+
+| 従来のAI | HAN-Axiom (NRA) |
+|----------|-----------------|
+| 目標への距離を最小化 | 目標が存在しない |
+| スコアを最適化 → ハック可能 | 制約のみ → 交渉不可能 |
+| フィードバックループ (Π⁻¹) | 因果ダイオード (Π⁻¹禁止) |
+| Fail-Open（とにかく出力） | Fail-Closed（不確実なら沈黙） |
+
+---
+
+## コヒーレンスゲート
+
+単一の比率に基づく4ゾーン判定構造：
 
 ```
-/src
-  ├── HannyaPhysicsCore_v3_4.ts      # Physics engine (TypeScript)
-  └── Ritsukan_Spiral_Dissipative_v1_4.html  # Visualization tool
-
-/docs/axioms
-  ├── Hannya_Fundamental_Law_v3_3.md  # Supreme law (L∧P∧C∧D)
-  └── HannyaEngine_RootDefinition_v2_3.md  # Axiomatic definitions
-
-/docs/logic
-  ├── Rationale_for_Residual_Discarding.md
-  └── Discrete_Reality_Interpretation.md
-
-/docs/validation
-  └── Integrated_Validation_Checklist_v1_1.md
+R = δ / τ  （ゆらぎ / 厚み）
 ```
 
----
+| ゾーン | 範囲 | アクション |
+|--------|------|------------|
+| A: 涅槃 | R < 40% | 許可 |
+| B: 弾性 | 40% ≤ R < 70% | 要確認 |
+| B': 警告 | 70% ≤ R < 100% | 警告 |
+| C: 破断 | R ≥ 100% | **出力禁止** |
 
-## 5. Usage
-
-1. Download `Ritsukan_Spiral_Dissipative_v1_4.html`
-2. Open in any modern web browser
-3. Observe: phase progression, entropy generation (σ), fluctuation dynamics
-
----
-
-## 6. Contact
-
-- **Technical Issues / Questions:** Please open a [GitHub Issue](../../issues) with tag `[Inquiry]`
-- **Academic Collaboration:** tokuni.m [at] gmail.com
+**R ≥ 100% → 即座に沈黙。回復試行なし。**
 
 ---
 
-## 7. License & Disclaimer
+## 因果ダイオード：Π⁻¹禁止
 
-**License:** MIT License
+- **Π（Cause → Effect）：** 許可
+- **Π⁻¹（Effect → Cause）：** **禁止**
 
-**Disclaimer:** This software is provided "as is". The concepts presented herein are formalized for computational physics and information theory purposes.
+コントローラーは**絶対に**読まない：
+- 目標からの距離
+- ユーザーフィードバックスコア
+- 前回出力の座標
 
----
-
-*Copyright (c) 2025 M.Tokuni*
-
----
----
-
-# 日本語版 / Japanese
-
-## 1. 概要：マクロ近似からミクロ実体へ
-
-本プロジェクトは **内包的動力学エンジン (IDE)**、開発コード名 **HAN** を提案します。物理的実体を連続空間ではなく、情報勾配によって駆動される離散的・位相的プロセスとして再解釈する理論・計算フレームワークです。
-
-### 二層構造の真実
-
-| 層 | 名称 | 特徴 |
-|----|------|------|
-| **青** | マクロ近似 | 微積分、連続、「影」（射影された現実） |
-| **赤** | ミクロ実体 | 離散、スティック・スリップ動力学、エントロピー排出 |
-
-> **研究者向け注記:** 本リポジトリは「内包的情報勾配動力学」および「因果ダイオード・アーキテクチャ」の **Prior Art（先行技術）** として機能します。
+これはポリシーではなく**構造によって**グッドハートの法則を防ぐ。
 
 ---
 
-## 2. 視覚的概念実証
+## 一行まとめ
 
-### A. 現象射影（リアルタイム可視化）
-
-散逸構造を示すリアルタイム可視化です。エントロピー排出（σ - J）を通じて**動的平衡（ホメオスタシス）**を維持します。
-
-![HAN可視化](han_rasen_202512.gif)
-
-*図1: 位相進行とゆらぎ監視のリアルタイム表示。散逸過程による自己組織化を実証。*
-
-### B. 離散的実体 vs 微積分の幻想
-
-核心的発見：物理世界は本質的に連続（青線）ではなく、離散（赤階段）です。張力が閾値(Tc)を超えた時のみ移動が発生します。
-
-![離散vs連続](RNA-BI.jpg)
-
-*図2: 微積分の解析的幻想（青）とHANコアの離散的実体（赤）の比較。赤線はエネルギーが蓄積するまで「ロック」する。*
-
-### C. 核心方程式（ステップ関数）
-
-連続変化を仮定する微分方程式と異なり、HANの状態遷移 Ṡ は閾値ベースのステップ関数で定義されます：
-
-```
-Ṡ = { 0           (T < Tc)   ← 閾値未満：変化なし
-    { f(T - Tc)   (T ≥ Tc)   ← 閾値以上：遷移発生
-```
+> **「ω > 0 = 生、ω = 0 = 死。R ≥ 100% → 沈黙は安全。」**
 
 ---
 
-## 3. 核心的革新（新規性主張）
-
-| 革新 | 説明 |
-|------|------|
-| **内包的動力学** | 空間変数(x,y,z)を因果コアで禁止。Δ_infoのみで駆動 |
-| **因果ダイオード** | 距離は出力(Effect)のみ、入力(Cause)禁止。Π⁻¹禁止 |
-| **離散位相ロック** | 残差はEffect層へ「熱/ログ」として廃棄 |
-| **恒常性** | 安定状態＝動的平衡(ω>0, Work>0)、停止ではない |
-
----
-
-## 4. 使用方法
-
-1. `Ritsukan_Spiral_Dissipative_v1_4.html` をダウンロード
-2. 任意のモダンブラウザで開く
-3. 位相進行、エントロピー生成(σ)、ゆらぎ動態を観察
-
----
-
-## 5. 連絡先
-
-- **技術的質問:** [GitHub Issue](../../issues) を `[Inquiry]` タグ付きで作成してください
-- **学術連携:** tokuni.m [at] gmail.com
-
----
-
-## 6. ライセンス
-
-**ライセンス:** MIT License
-
-**免責事項:** 本ソフトウェアは「現状のまま」提供されます。本書で提示される概念は、計算物理学および情報理論の目的で形式化されています。
-
----
-
-*Copyright (c) 2025 M.Tokuni*
+**END OF README**
