@@ -179,7 +179,7 @@ Unlike differential equations that assume continuous change, the state transitio
 ## 5. 連絡先
 
 - **技術的質問:** [GitHub Issue](../../issues) を `[Inquiry]` タグ付きで作成してください
-- **学術連携:** mtookuni39 [at] gmail.com
+- **学術連携:** tokuni.m [at] gmail.com
 
 ---
 
