@@ -84,4 +84,4 @@ To observe the engine's dynamics:
 **Disclaimer:** This software is provided "as is". The concepts presented herein are formalized for computational physics and information theory purposes.
 
 ---
-*Copyright (c) 2025 M.Tokuni/Human Wisdom Research Institute*
+*Copyright (c) 2025 M.Tokuni /
