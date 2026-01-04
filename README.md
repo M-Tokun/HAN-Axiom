@@ -1,15 +1,20 @@
 # HAN-Axiom: Nomological Ring Axioms
+
 ---
+
 # ⚠️ [IMPORTANT NOTICE / 重要] Project Migration & License Update
 
-**This repository (HAN-Axiom) is now DEPRECATED.**
+**This repository (HAN-Axiom) is now DEPRECATED.**  
 The project has evolved into the **NRA-IDE (Nomological Ring Axioms)** framework.
 
-* **New Repository**: [https://github.com/M-Tokun/NRA-IDE](https://github.com/M-Tokun/NRA-IDE)
-* **License Update**: As of January 2026, the author (M-Tokun) has updated the "Law (Nomos)" of this project. Even for content in this old repository, **EXPLICIT WRITTEN CONSENT is required for any commercial or profit-generating use.** * **Prohibition of Inverse Derivation**: The strict prohibition of "Inverse Derivation" (deriving force from distance/radii) applies to all iterations of this logic.
+* **New Repository**: https://github.com/M-Tokun/NRA-IDE
+* **License Update**: As of January 2026, **EXPLICIT WRITTEN CONSENT is required for any commercial or profit-generating use.**
+* **Prohibition of Inverse Derivation**: The strict prohibition of "Inverse Derivation" (deriving force from distance/radii) applies to all iterations of this logic.
 
-* 本リポジトリは旧版です。プロジェクトは最新の **NRA-IDE（律環公理系）** へ移行しました。現在の著作者の「律（制約）」に基づき、本リポジトリの内容を営利目的に利用する場合も、著作者の承諾を必須とします。最新の仕様およびライセンスは上記リンク先を参照してください。
+**本リポジトリは旧版です。** プロジェクトは最新の **NRA-IDE（律環公理系）** へ移行しました。現在の著作者の「律（制約）」に基づき、本リポジトリの内容を営利目的に利用する場合も、著作者の承諾を必須とします。最新の仕様およびライセンスは上記リンク先を参照してください。
+
 ---
+
 **Structural Constraints for AI Safety — Beyond Distance-Based Optimization**
 
 [English](#overview) | [日本語](#概要)
@@ -104,18 +109,23 @@ This prevents Goodhart's Law **by structure**, not by policy.
 
 ## License
 
-- **Code (src/):** MIT License
-- **Documentation & Figures:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+This project is licensed under the **NRA-IDE Project License v1.1**. See [LICENSE](LICENSE) for full terms.
 
-When using figures or documentation, please attribute:
-> HAN-Axiom by とおくに (mtookuni39@gmail.com)
+**Key Points:**
+- **Non-commercial use**: Freely permitted for research and personal projects
+- **Commercial use**: Requires explicit written consent from M-Tokun
+- **Prohibition of Inverse Derivation**: Causal integrity constraints are legally enforced
+
+For commercial licensing inquiries:
+- **Email**: tototo_san@hotmail.co.jp
+- **Subject**: "NRA-IDE Commercial License Request"
 
 ---
 
 ## Contact
 
 - **GitHub Issues:** Technical discussion, bug reports
-- **Email:** mtookuni39@gmail.com (Academic collaboration, general inquiries)
+- **Email:** tototo_san@hotmail.co.jp (Academic collaboration, general inquiries)
 
 ---
 
@@ -174,6 +184,21 @@ R = δ / τ  （ゆらぎ / 厚み）
 ## 一行まとめ
 
 > **「ω > 0 = 生、ω = 0 = 死。R ≥ 100% → 沈黙は安全。」**
+
+---
+
+## ライセンス
+
+本プロジェクトは **NRA-IDE Project License v1.1** の下でライセンスされています。詳細は [LICENSE](LICENSE) を参照してください。
+
+**重要事項:**
+- **非商用利用**: 研究・個人プロジェクトでは自由に利用可能
+- **商用利用**: 著作者（M-Tokun）の書面による事前承諾が必要
+- **逆導出の禁止**: 因果的整合性の制約は法的に強制されます
+
+商用ライセンスに関するお問い合わせ:
+- **Email**: tototo_san@hotmail.co.jp
+- **件名**: "NRA-IDE Commercial License Request"
 
 ---
 
