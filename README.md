@@ -8,7 +8,7 @@ The project has evolved into the **NRA-IDE (Nomological Ring Axioms)** framework
 * **New Repository**: [https://github.com/M-Tokun/NRA-IDE](https://github.com/M-Tokun/NRA-IDE)
 * **License Update**: As of January 2026, the author (M-Tokun) has updated the "Law (Nomos)" of this project. Even for content in this old repository, **EXPLICIT WRITTEN CONSENT is required for any commercial or profit-generating use.** * **Prohibition of Inverse Derivation**: The strict prohibition of "Inverse Derivation" (deriving force from distance/radii) applies to all iterations of this logic.
 
-本リポジトリは旧版です。プロジェクトは最新の **NRA-IDE（律環公理系）** へ移行しました。現在の著作者の「律（制約）」に基づき、本リポジトリの内容を営利目的に利用する場合も、著作者の承諾を必須とします。最新の仕様およびライセンスは上記リンク先を参照してください。
+* 本リポジトリは旧版です。プロジェクトは最新の **NRA-IDE（律環公理系）** へ移行しました。現在の著作者の「律（制約）」に基づき、本リポジトリの内容を営利目的に利用する場合も、著作者の承諾を必須とします。最新の仕様およびライセンスは上記リンク先を参照してください。
 ---
 **Structural Constraints for AI Safety — Beyond Distance-Based Optimization**
 
