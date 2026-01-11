@@ -124,8 +124,8 @@ For commercial licensing inquiries:
 
 ## Contact
 
-- **GitHub Issues:** Technical discussion, bug reports
-- **Email:** tototo_san@hotmail.co.jp (Academic collaboration, general inquiries)
+- **GitHub
+- **Email:**
 
 ---
 
