@@ -197,8 +197,8 @@ R = δ / τ  （ゆらぎ / 厚み）
 - **逆導出の禁止**: 因果的整合性の制約は法的に強制されます
 
 商用ライセンスに関するお問い合わせ:
-- **Email**: tototo_san@hotmail.co.jp
-- **件名**: "NRA-IDE Commercial License Request"
+- 
+- 
 
 ---
 
