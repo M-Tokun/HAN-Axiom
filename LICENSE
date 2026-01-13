@@ -1,79 +1,128 @@
-NRA-IDE Project License v1.1
-Copyright (c) 2026 M-Tokun (NRA-IDE Project)
+NRA-IDE Project License v1.4 (Draft, 2026)
+Copyright (c) 2026 M-Tokun
 
-===========================================================================
- 1. COMMERCIAL USE RESTRICTION
-===========================================================================
-Any use of this software, its underlying theory (Nomological Ring Axioms), 
-or its code for the purpose of generating profit, or in connection with 
-any monetary transactions (including products, services, or consulting), 
-requires EXPLICIT PRIOR WRITTEN CONSENT from the author.
+--------------------------------------------------------------------------------
+1. COMMERCIAL USE RESTRICTION
 
-Contact for commercial licensing:
-  Email: tototo_san@hotmail.co.jp
-  Subject: "NRA-IDE Commercial License Request"
+   Commercial use of this software, its underlying theory (Nomological Ring 
+   Axioms), or any derivative work REQUIRES EXPLICIT PRIOR WRITTEN CONSENT 
+   from the copyright holder.
 
-For clarity, "commercial use" includes but is not limited to:
-- Direct sale or licensing of this software
-- Integration into commercial products or paid services
-- Use in consulting or training services for profit
+   "Commercial use" includes, but is not limited to:
+     - Sale, licensing, or monetization of this software.
+     - Integration into commercial products or paid services.
+     - Use in consulting, training, or operational systems for profit.
 
-Non-commercial use (academic research, personal projects, non-profit 
-organizations) does NOT require prior consent.
+   Non-commercial use (academic research, personal projects, non-profit 
+   organizations) does not require prior consent.
 
-===========================================================================
- 2. PROHIBITION OF INVERSE DERIVATION (CAUSAL DIODE)
-===========================================================================
-Any logic, algorithm, or modification that derives internal force, 
-potential, or state from external results—including but not limited to 
-Distance, Geometric Radii (e.g., center-to-edge), or Resultant 
-Coordinates—is STRICTLY PROHIBITED.
+   Commercial licensing inquiries shall be submitted through the official 
+   NRA-IDE Project contact channel (GitHub Issues).
 
-Distance must remain a "Projection (Log)" and shall not be used as an 
-input or intermediate driver for causal dynamics. This is a non-negotiable 
-constraint of the Nomological Ring Axioms (NRA) framework.
+--------------------------------------------------------------------------------
+2. PROHIBITION OF INVERSE DERIVATION (CAUSAL DIODE)
 
-Examples of PROHIBITED implementations:
-  ✗ force = k * (target_distance - current_distance)
-  ✗ potential = function(radius_from_center)
+   Any logic, algorithm, or modification that derives internal force, potential, 
+   or state from external results is STRICTLY PROHIBITED.
 
-Examples of PERMITTED implementations:
-  ✓ constraint = phase_lock(theta)
-  ✓ tension = spring_constant * deformation
+   The following MUST NOT be used as causal inputs or intermediate drivers:
+     - Distance from a target
+     - Geometric radii
+     - Coordinates (projected space)
+     - Semantic or geometric scores
+     - Any effect-side quantity
 
-===========================================================================
- 3. GENERAL TERMS (BSD 3-Clause Based)
-===========================================================================
-Redistribution and use in source and binary forms, with or without 
-modification, are permitted provided that the following conditions are met:
+   Examples of PROHIBITED implementations:
+     [X] force = k * (target_distance - current_distance)
+     [X] potential = f(radius_from_center)
+     [X] optimization based on semantic scores
 
-1. Redistributions of source code must retain the above copyright notice, 
-   this list of conditions and the following disclaimer.
+   Examples of PERMITTED implementations:
+     [O] constraint = phase_lock(theta)
+     [O] tension = spring_constant * deformation
 
-2. Redistributions in binary form must reproduce the above copyright notice, 
-   this list of conditions and the following disclaimer in the documentation 
-   and/or other materials provided with the distribution.
+   Any attempt to reconstruct internal causal structure from external behavior, 
+   outputs, or observed trajectories is considered inverse derivation and is 
+   strictly prohibited.
 
-3. Neither the name of M-Tokun nor the names of its contributors may be 
-   used to endorse or promote products derived from this software without 
-   specific prior written permission.
+   Violation of this section constitutes a fundamental breach of the 
+   Nomological Ring Axioms and results in immediate license termination.
 
-===========================================================================
- 4. DISCLAIMER
-===========================================================================
-THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
-INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY 
-AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL 
-THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, 
-INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
-NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY 
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF 
-THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+--------------------------------------------------------------------------------
+3. PROHIBITED USES (SAFETY AND ETHICAL RESTRICTIONS)
 
-===========================================================================
- 5. VERSIONING
-===========================================================================
-This is NRA-IDE Project License v1.1 (Effective: January 5, 2026)
-For the latest version, see: https://github.com/M-Tokun/NRA-IDE
+   This software must NOT be used for:
+     - Weapons, military systems, targeting, guidance, or attack assistance.
+     - Surveillance, repression, or discriminatory control systems.
+     - Criminal activity, fraud, unauthorized access, or harmful automation.
+     - Unsafe control of medical devices, vehicles, aircraft, or machinery.
+     - Any application that may cause physical, psychological, or societal harm.
+
+   Uses that are similar to, or carry equivalent levels of risk to, the above 
+   categories are also prohibited. Violation results in immediate and permanent 
+   termination of this license.
+
+--------------------------------------------------------------------------------
+4. RESEARCH USE DOES NOT GRANT REUSE RIGHTS
+
+   Research use of this software or its outputs DOES NOT GRANT any rights to:
+     - reuse
+     - redistribute
+     - train AI models
+     - incorporate results into derivative systems
+
+   Training (machine learning or statistical modeling) on this software, its 
+   outputs, or its internal structures constitutes a form of REPRODUCTION and 
+   therefore requires explicit permission.
+
+   Derived datasets, logs, traces, or behavioral records produced by this 
+   software are considered part of the software itself and are subject to the 
+   same restrictions.
+
+--------------------------------------------------------------------------------
+5. CONDITIONAL SOURCE DISCLOSURE REQUIREMENT
+
+   If the copyright holder determines that a user's deployment, modification, 
+   or integration of this software may pose a safety, ethical, or societal risk, 
+   the copyright holder may formally request disclosure of the complete source 
+   code of the derived work.
+
+   Upon receiving such a request, the user is obligated to provide the full 
+   source code within a reasonable timeframe. Failure to comply results in 
+   immediate and permanent license termination.
+
+   This requirement exists to ensure compliance with the Nomological Ring 
+   Axioms and to prevent the emergence of unsafe derivative causal structures.
+
+--------------------------------------------------------------------------------
+6. GENERAL TERMS (BSD 3-CLAUSE BASE)
+
+   Redistribution and use in source and binary forms, with or without 
+   modification, are permitted provided that the following conditions are met:
+
+     1. Redistributions of source code must retain the above copyright notice, 
+        this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright 
+        notice, this list of conditions and the following disclaimer in the 
+        documentation and/or other materials provided with the distribution.
+     3. Neither the name of the copyright holder nor the names of its 
+        contributors may be used to endorse or promote products derived from 
+        this software without specific prior written permission.
+
+   In the event of any conflict between Section 6 and Sections 1–5, the 
+   restrictions in Sections 1–5 shall take precedence.
+
+--------------------------------------------------------------------------------
+7. DISCLAIMER
+
+   THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY 
+   AND FITNESS FOR A PARTICULAR PURPOSE.
+
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY 
+   DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+For the latest version, refer to the official NRA-IDE Project repository.
